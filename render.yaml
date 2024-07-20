@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: greenhubflaskapp
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    plan: free
+    branches:
+      - main
+    # Optional: if you need environment variables, uncomment and add them
+    # envVars:
+    #   - key: ENV_VAR_NAME
+    #     value: your_value
+    # Optional: if you need to specify a different Python version
+    # runtime:
+    #   python: 3.11.9
+    # Optional: if you need to specify a different region
+    # region: us-east
+    # Optional: if you need to specify a different disk size
+    # diskSize: 512
