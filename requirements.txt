@@ -5,4 +5,4 @@ numpy
 opencv-python
 werkzeug
 boto3
-torch # or the latest stable version
+Procfile
