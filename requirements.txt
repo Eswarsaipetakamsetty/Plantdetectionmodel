@@ -9,3 +9,4 @@ pandas
 tensorflow
 keras
 Flask_cors
+gunicorn
