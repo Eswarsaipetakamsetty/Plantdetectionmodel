@@ -5,7 +5,6 @@ torch
 torchvision
 numpy
 Pillow
-pytorch
 pandas
 tensorflow
 keras
