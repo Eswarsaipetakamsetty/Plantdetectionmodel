@@ -1,0 +1,12 @@
+Flask
+Werkzeug
+opencv-python
+torch
+torchvision
+numpy
+Pillow
+pytorch
+pandas
+tensorflow
+keras
+Flask_cors
